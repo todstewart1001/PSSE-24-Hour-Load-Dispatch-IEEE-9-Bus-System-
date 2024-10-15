@@ -5,10 +5,10 @@
 
   This is a 24-hour load dispatch scenario in a standard IEEE 9-bus system, including three generators, three loads, and six transmission lines.
 
-  Dummy data is supplied for load profiles based on general trends in load demand throughout the day, and fixed generation power is dispatched between the generators. 
+  Synthetic data is supplied for load profiles based on general trends in load demand throughout the day, and fixed percentages of total generation power are dispatched between the generators. 
 50% load demand for generator 1, 30% for generator 2, and 20% for generator 3.
 
-  Power flow is solved at each hour to balance load and generation. Generator dispatch and voltage data is retrieved for each bus. Transmission line flow data is retrieved as well, including active and reactive power in both directions to account for power losses. Case data is saved for each hour.
+  Power flow is solved at each hour to ensure that load and generation are balanced, and the system operates within its constraints. Generator dispatch and bus voltage data are recorded at each time step. Transmission line flow data is retrieved as well, including active and reactive power in both directions to account for line losses. Case data is saved for each hour.
 
 
   Sample output for one hour:
