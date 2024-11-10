@@ -10,6 +10,8 @@
 
   Power flow is solved at each hour to ensure that load and generation are balanced, and that the system operates within its constraints. Generator dispatch and bus voltage data are recorded at each time step. Transmission line flow data is retrieved as well, including active and reactive power in both directions to account for line losses. Case data is saved for each hour.
 
+  steady_state_analysis.py declares functions for custom contingencies to test for downed buses, transmission lines, generators, and transformers. Additionally, short circuit analysis may be performed.
+
 
   Sample output for one hour:
 
